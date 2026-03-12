@@ -1,0 +1,9 @@
+--- Assignment 2: Bitcoin Addresses ---
+Legacy Address:
+mnH1fvCJPBatZFjVrL6VB215qqxGdrmKuv
+
+Bech32 Address:
+bcrt1qataywswa3k2u2epzxeapcluefflla7rgdmqwcc
+
+Bech32m Address (Taproot):
+bcrt1pwlxyvv4k5k7uhazu9rdz4nxe4fqnnjkuax5twxwsp6g97e844rrq57du9g

@@ -4,5 +4,6 @@
 Generate legacy addresses, bech32 addresses and bech32m addresses
 
 What is the difference between hardened and non hardened keys
-
+Hardened keys act as a firewall. If a child key is leaked, the parent private key remains safe. Non hardened keys allow the parent public key to derive all child public keys.
 Why should a wallet developer prefer deterministic wallets over non deterministic wallets
+Deterministic wallets are preferred because you only need to backup one seed to recover every address ever created. In non-deterministic wallets, you'd have to backup the wallet every single time you generated a new address
